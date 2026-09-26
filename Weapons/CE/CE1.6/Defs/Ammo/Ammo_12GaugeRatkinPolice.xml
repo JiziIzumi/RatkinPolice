@@ -32,7 +32,7 @@
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>0.70</drawSize>
     </graphicData>
-    <ammoClass>ShotgunShell</ammoClass>
+    <ammoClass>BuckShot</ammoClass>
     <cookOffProjectile>Bullet_12GaugeRatkinPolice_Buck</cookOffProjectile>
     <thingCategories>
       <li>RatkinPolice_PoliceAmmo</li>
