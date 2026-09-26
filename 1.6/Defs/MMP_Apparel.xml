@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>MMP_PoliceDutyUniform</defName><label>民警｜执勤服</label><description>一般民警日常执勤使用的鼠族制式执勤服。</description>
+    <graphicData><texPath>Things/Item/Apparel/MMP_PoliceDutyUniform/MMP_PoliceDutyUniform</texPath><graphicClass>Graphic_Single</graphicClass><shaderType>Cutout</shaderType></graphicData>
+    <thingCategories><li>MMP_PoliceApparel</li></thingCategories>
+    <statBases><MaxHitPoints>140</MaxHitPoints><WorkToMake>450</WorkToMake><Mass>0.8</Mass><Flammability>0.7</Flammability><EquipDelay>1.5</EquipDelay><Insulation_Cold>6</Insulation_Cold><Insulation_Heat>5</Insulation_Heat></statBases><costList><Cloth>55</Cloth></costList>
+    <apparel><wornGraphicPath>Things/Item/Apparel/MMP_PoliceDutyUniform/MMP_PoliceDutyUniform</wornGraphicPath><layers><li>MMP_Uniform</li></layers><bodyPartGroups><li>Torso</li><li>Neck</li><li>Shoulders</li><li>Arms</li><li>Legs</li></bodyPartGroups></apparel>
+    <equippedStatOffsets><SocialImpact>0.05</SocialImpact></equippedStatOffsets>
+    <recipeMaker><useIngredientsForColor>false</useIngredientsForColor><workSpeedStat>GeneralLaborSpeed</workSpeedStat><workSkill>Crafting</workSkill><effectWorking>Tailor</effectWorking><soundWorking>Recipe_Tailor</soundWorking><recipeUsers><li>ElectricTailoringBench</li><li>HandTailoringBench</li></recipeUsers></recipeMaker>
+  </ThingDef>
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>MMP_PoliceAutumnWinterUniform</defName><label>民警｜秋冬服</label><description>一般民警秋冬季执勤使用的保暖制式制服。</description>
+    <graphicData><texPath>Things/Item/Apparel/MMP_PoliceAutumnWinterUniform/MMP_PoliceAutumnWinterUniform</texPath><graphicClass>Graphic_Single</graphicClass><shaderType>Cutout</shaderType></graphicData>
+    <thingCategories><li>MMP_PoliceApparel</li></thingCategories>
+    <statBases><MaxHitPoints>160</MaxHitPoints><WorkToMake>600</WorkToMake><Mass>1.2</Mass><Flammability>0.65</Flammability><EquipDelay>1.8</EquipDelay><Insulation_Cold>18</Insulation_Cold><Insulation_Heat>3</Insulation_Heat></statBases><costList><Cloth>70</Cloth></costList>
+    <apparel><wornGraphicPath>Things/Item/Apparel/MMP_PoliceAutumnWinterUniform/MMP_PoliceAutumnWinterUniform</wornGraphicPath><layers><li>MMP_Uniform</li></layers><bodyPartGroups><li>Torso</li><li>Neck</li><li>Shoulders</li><li>Arms</li><li>Legs</li></bodyPartGroups></apparel>
+    <equippedStatOffsets><SocialImpact>0.05</SocialImpact></equippedStatOffsets>
+    <recipeMaker><useIngredientsForColor>false</useIngredientsForColor><workSpeedStat>GeneralLaborSpeed</workSpeedStat><workSkill>Crafting</workSkill><effectWorking>Tailor</effectWorking><soundWorking>Recipe_Tailor</soundWorking><recipeUsers><li>ElectricTailoringBench</li><li>HandTailoringBench</li></recipeUsers></recipeMaker>
+  </ThingDef>
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>MMP_AuxDutyUniform</defName><label>辅警｜执勤服</label><description>辅警日常执勤使用的独立制式执勤服。</description>
+    <graphicData><texPath>Things/Item/Apparel/MMP_AuxDutyUniform/MMP_AuxDutyUniform</texPath><graphicClass>Graphic_Single</graphicClass><shaderType>Cutout</shaderType></graphicData>
+    <thingCategories><li>MMP_PoliceApparel</li></thingCategories>
+    <statBases><MaxHitPoints>140</MaxHitPoints><WorkToMake>450</WorkToMake><Mass>0.8</Mass><Flammability>0.7</Flammability><EquipDelay>1.5</EquipDelay><Insulation_Cold>6</Insulation_Cold><Insulation_Heat>5</Insulation_Heat></statBases><costList><Cloth>50</Cloth></costList>
+    <apparel><wornGraphicPath>Things/Item/Apparel/MMP_AuxDutyUniform/MMP_AuxDutyUniform</wornGraphicPath><layers><li>MMP_Uniform</li></layers><bodyPartGroups><li>Torso</li><li>Neck</li><li>Shoulders</li><li>Arms</li><li>Legs</li></bodyPartGroups></apparel>
+    
+    <recipeMaker><useIngredientsForColor>false</useIngredientsForColor><workSpeedStat>GeneralLaborSpeed</workSpeedStat><workSkill>Crafting</workSkill><effectWorking>Tailor</effectWorking><soundWorking>Recipe_Tailor</soundWorking><recipeUsers><li>ElectricTailoringBench</li><li>HandTailoringBench</li></recipeUsers></recipeMaker>
+  </ThingDef>
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>MMP_AuxAutumnWinterUniform</defName><label>辅警｜秋冬服</label><description>辅警秋冬季执勤使用的保暖制式制服。</description>
+    <graphicData><texPath>Things/Item/Apparel/MMP_AuxAutumnWinterUniform/MMP_AuxAutumnWinterUniform</texPath><graphicClass>Graphic_Single</graphicClass><shaderType>Cutout</shaderType></graphicData>
+    <thingCategories><li>MMP_PoliceApparel</li></thingCategories>
+    <statBases><MaxHitPoints>160</MaxHitPoints><WorkToMake>600</WorkToMake><Mass>1.2</Mass><Flammability>0.65</Flammability><EquipDelay>1.8</EquipDelay><Insulation_Cold>18</Insulation_Cold><Insulation_Heat>3</Insulation_Heat></statBases><costList><Cloth>65</Cloth></costList>
+    <apparel><wornGraphicPath>Things/Item/Apparel/MMP_AuxAutumnWinterUniform/MMP_AuxAutumnWinterUniform</wornGraphicPath><layers><li>MMP_Uniform</li></layers><bodyPartGroups><li>Torso</li><li>Neck</li><li>Shoulders</li><li>Arms</li><li>Legs</li></bodyPartGroups></apparel>
+    
+    <recipeMaker><useIngredientsForColor>false</useIngredientsForColor><workSpeedStat>GeneralLaborSpeed</workSpeedStat><workSkill>Crafting</workSkill><effectWorking>Tailor</effectWorking><soundWorking>Recipe_Tailor</soundWorking><recipeUsers><li>ElectricTailoringBench</li><li>HandTailoringBench</li></recipeUsers></recipeMaker>
+  </ThingDef>
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>MMP_SWATDutyUniform</defName><label>特警｜执勤服</label><description>公安特警日常及战术执勤使用的深色作战执勤服。</description>
+    <graphicData><texPath>Things/Item/Apparel/MMP_SWATDutyUniform/MMP_SWATDutyUniform</texPath><graphicClass>Graphic_Single</graphicClass><shaderType>Cutout</shaderType></graphicData>
+    <thingCategories><li>MMP_PoliceApparel</li></thingCategories>
+    <statBases><MaxHitPoints>140</MaxHitPoints><WorkToMake>450</WorkToMake><Mass>0.8</Mass><Flammability>0.7</Flammability><EquipDelay>1.5</EquipDelay><Insulation_Cold>6</Insulation_Cold><Insulation_Heat>5</Insulation_Heat><ArmorRating_Sharp>0.08</ArmorRating_Sharp><ArmorRating_Blunt>0.12</ArmorRating_Blunt></statBases><costList><Cloth>60</Cloth></costList>
+    <apparel><wornGraphicPath>Things/Item/Apparel/MMP_SWATDutyUniform/MMP_SWATDutyUniform</wornGraphicPath><layers><li>MMP_Uniform</li></layers><bodyPartGroups><li>Torso</li><li>Neck</li><li>Shoulders</li><li>Arms</li><li>Legs</li></bodyPartGroups></apparel>
+    
+    <recipeMaker><useIngredientsForColor>false</useIngredientsForColor><workSpeedStat>GeneralLaborSpeed</workSpeedStat><workSkill>Crafting</workSkill><effectWorking>Tailor</effectWorking><soundWorking>Recipe_Tailor</soundWorking><recipeUsers><li>ElectricTailoringBench</li><li>HandTailoringBench</li></recipeUsers></recipeMaker>
+  </ThingDef>
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>MMP_SWATAutumnWinterUniform</defName><label>特警｜秋冬服</label><description>公安特警秋冬季执勤使用的深色保暖作战制服。</description>
+    <graphicData><texPath>Things/Item/Apparel/MMP_SWATAutumnWinterUniform/MMP_SWATAutumnWinterUniform</texPath><graphicClass>Graphic_Single</graphicClass><shaderType>Cutout</shaderType></graphicData>
+    <thingCategories><li>MMP_PoliceApparel</li></thingCategories>
+    <statBases><MaxHitPoints>160</MaxHitPoints><WorkToMake>600</WorkToMake><Mass>1.2</Mass><Flammability>0.65</Flammability><EquipDelay>1.8</EquipDelay><Insulation_Cold>18</Insulation_Cold><Insulation_Heat>3</Insulation_Heat><ArmorRating_Sharp>0.1</ArmorRating_Sharp><ArmorRating_Blunt>0.15</ArmorRating_Blunt></statBases><costList><Cloth>75</Cloth></costList>
+    <apparel><wornGraphicPath>Things/Item/Apparel/MMP_SWATAutumnWinterUniform/MMP_SWATAutumnWinterUniform</wornGraphicPath><layers><li>MMP_Uniform</li></layers><bodyPartGroups><li>Torso</li><li>Neck</li><li>Shoulders</li><li>Arms</li><li>Legs</li></bodyPartGroups></apparel>
+    
+    <recipeMaker><useIngredientsForColor>false</useIngredientsForColor><workSpeedStat>GeneralLaborSpeed</workSpeedStat><workSkill>Crafting</workSkill><effectWorking>Tailor</effectWorking><soundWorking>Recipe_Tailor</soundWorking><recipeUsers><li>ElectricTailoringBench</li><li>HandTailoringBench</li></recipeUsers></recipeMaker>
+  </ThingDef>
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>MMP_BatonDutyBelt</defName><label>通用｜甩棍执勤腰带</label><description>携带伸缩警棍和基础勤务装备的执勤腰带。</description>
+    <graphicData><texPath>Things/Item/Apparel/MMP_BatonDutyBelt/MMP_BatonDutyBelt</texPath><graphicClass>Graphic_Single</graphicClass><shaderType>Cutout</shaderType></graphicData>
+    <thingCategories><li>MMP_PoliceApparel</li></thingCategories>
+    <statBases><MaxHitPoints>180</MaxHitPoints><WorkToMake>180</WorkToMake><Mass>0.9</Mass><Flammability>0.25</Flammability><EquipDelay>0.8</EquipDelay></statBases><costList><Cloth>15</Cloth><Steel>15</Steel></costList>
+    <apparel><wornGraphicPath>Things/Item/Apparel/MMP_BatonDutyBelt/MMP_BatonDutyBelt</wornGraphicPath><layers><li>MMP_Belt</li></layers><bodyPartGroups><li>Torso</li><li>Waist</li></bodyPartGroups></apparel>
+    <equippedStatOffsets><CarryingCapacity>15</CarryingCapacity><MoveSpeed>0.05</MoveSpeed></equippedStatOffsets>
+    <recipeMaker><useIngredientsForColor>false</useIngredientsForColor><workSpeedStat>GeneralLaborSpeed</workSpeedStat><workSkill>Crafting</workSkill><effectWorking>Tailor</effectWorking><soundWorking>Recipe_Tailor</soundWorking><recipeUsers><li>ElectricTailoringBench</li><li>HandTailoringBench</li></recipeUsers></recipeMaker>
+  </ThingDef>
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>MMP_ArmedDutyBelt</defName><label>通用｜配枪执勤腰带</label><description>带枪套和弹匣位的配枪执勤腰带。</description>
+    <graphicData><texPath>Things/Item/Apparel/MMP_ArmedDutyBelt/MMP_ArmedDutyBelt</texPath><graphicClass>Graphic_Single</graphicClass><shaderType>Cutout</shaderType></graphicData>
+    <thingCategories><li>MMP_PoliceApparel</li></thingCategories>
+    <statBases><MaxHitPoints>180</MaxHitPoints><WorkToMake>180</WorkToMake><Mass>0.9</Mass><Flammability>0.25</Flammability><EquipDelay>0.8</EquipDelay></statBases><costList><Cloth>15</Cloth><Steel>20</Steel></costList>
+    <apparel><wornGraphicPath>Things/Item/Apparel/MMP_ArmedDutyBelt/MMP_ArmedDutyBelt</wornGraphicPath><layers><li>MMP_Belt</li></layers><bodyPartGroups><li>Torso</li><li>Waist</li></bodyPartGroups></apparel>
+    <equippedStatOffsets><CarryingCapacity>20</CarryingCapacity><AimingDelayFactor>-0.08</AimingDelayFactor></equippedStatOffsets>
+    <recipeMaker><useIngredientsForColor>false</useIngredientsForColor><workSpeedStat>GeneralLaborSpeed</workSpeedStat><workSkill>Crafting</workSkill><effectWorking>Tailor</effectWorking><soundWorking>Recipe_Tailor</soundWorking><recipeUsers><li>ElectricTailoringBench</li><li>HandTailoringBench</li></recipeUsers></recipeMaker>
+  </ThingDef>
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>MMP_PoliceVest</defName><label>民警｜警察背心</label><description>一般民警使用的警务识别与轻防护背心。</description>
+    <graphicData><texPath>Things/Item/Apparel/MMP_PoliceVest/MMP_PoliceVest</texPath><graphicClass>Graphic_Single</graphicClass><shaderType>Cutout</shaderType></graphicData>
+    <thingCategories><li>MMP_PoliceApparel</li></thingCategories>
+    <statBases><MaxHitPoints>180</MaxHitPoints><WorkToMake>250</WorkToMake><Mass>1.3</Mass><ArmorRating_Sharp>0.25</ArmorRating_Sharp><ArmorRating_Blunt>0.35</ArmorRating_Blunt><ArmorRating_Heat>0.15</ArmorRating_Heat><EquipDelay>1.0</EquipDelay></statBases><costList><Cloth>30</Cloth><Steel>10</Steel></costList>
+    <apparel><wornGraphicPath>Things/Item/Apparel/MMP_PoliceVest/MMP_PoliceVest</wornGraphicPath><layers><li>MMP_Vest</li></layers><bodyPartGroups><li>Torso</li><li>Neck</li><li>Shoulders</li></bodyPartGroups></apparel>
+    
+    <recipeMaker><useIngredientsForColor>false</useIngredientsForColor><workSpeedStat>GeneralLaborSpeed</workSpeedStat><workSkill>Crafting</workSkill><effectWorking>Tailor</effectWorking><soundWorking>Recipe_Tailor</soundWorking><recipeUsers><li>ElectricTailoringBench</li><li>HandTailoringBench</li></recipeUsers></recipeMaker>
+  </ThingDef>
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>MMP_AuxReflectiveVest</defName><label>辅警｜反光衣</label><description>辅警使用的高可视反光执勤背心。</description>
+    <graphicData><texPath>Things/Item/Apparel/MMP_AuxReflectiveVest/MMP_AuxReflectiveVest</texPath><graphicClass>Graphic_Single</graphicClass><shaderType>Cutout</shaderType></graphicData>
+    <thingCategories><li>MMP_PoliceApparel</li></thingCategories>
+    <statBases><MaxHitPoints>120</MaxHitPoints><WorkToMake>180</WorkToMake><Mass>0.6</Mass><EquipDelay>0.7</EquipDelay></statBases><costList><Cloth>35</Cloth></costList>
+    <apparel><wornGraphicPath>Things/Item/Apparel/MMP_AuxReflectiveVest/MMP_AuxReflectiveVest</wornGraphicPath><layers><li>MMP_Vest</li></layers><bodyPartGroups><li>Torso</li><li>Neck</li><li>Shoulders</li></bodyPartGroups></apparel>
+    <equippedStatOffsets><MoveSpeed>0.03</MoveSpeed></equippedStatOffsets>
+    <recipeMaker><useIngredientsForColor>false</useIngredientsForColor><workSpeedStat>GeneralLaborSpeed</workSpeedStat><workSkill>Crafting</workSkill><effectWorking>Tailor</effectWorking><soundWorking>Recipe_Tailor</soundWorking><recipeUsers><li>ElectricTailoringBench</li><li>HandTailoringBench</li></recipeUsers></recipeMaker>
+  </ThingDef>
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>MMP_SWATVest</defName><label>特警｜战术背心</label><description>公安特警使用的战术防护背心，提供较高的躯干防护。</description>
+    <graphicData><texPath>Things/Item/Apparel/MMP_SWATVest/MMP_SWATVest</texPath><graphicClass>Graphic_Single</graphicClass><shaderType>Cutout</shaderType></graphicData>
+    <thingCategories><li>MMP_PoliceApparel</li></thingCategories>
+    <statBases><MaxHitPoints>240</MaxHitPoints><WorkToMake>350</WorkToMake><Mass>2.4</Mass><ArmorRating_Sharp>0.55</ArmorRating_Sharp><ArmorRating_Blunt>0.65</ArmorRating_Blunt><ArmorRating_Heat>0.3</ArmorRating_Heat><EquipDelay>1.3</EquipDelay></statBases><costList><Cloth>25</Cloth><Steel>30</Steel><Plasteel>8</Plasteel></costList>
+    <apparel><wornGraphicPath>Things/Item/Apparel/MMP_SWATVest/MMP_SWATVest</wornGraphicPath><layers><li>MMP_Vest</li></layers><bodyPartGroups><li>Torso</li><li>Neck</li><li>Shoulders</li></bodyPartGroups></apparel>
+    <equippedStatOffsets><MoveSpeed>-0.03</MoveSpeed></equippedStatOffsets>
+    <recipeMaker><useIngredientsForColor>false</useIngredientsForColor><workSpeedStat>GeneralLaborSpeed</workSpeedStat><workSkill>Crafting</workSkill><effectWorking>Tailor</effectWorking><soundWorking>Recipe_Tailor</soundWorking><recipeUsers><li>ElectricTailoringBench</li><li>HandTailoringBench</li></recipeUsers></recipeMaker>
+  </ThingDef>
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>MMP_BodycamShoulderLight</defName><label>通用｜执法记录仪与肩灯</label><description>组合式执法记录仪与肩灯，用于记录执法过程和提供醒目的现场识别。</description>
+    <graphicData><texPath>Things/Item/Apparel/MMP_BodycamShoulderLight/MMP_BodycamShoulderLight</texPath><graphicClass>Graphic_Single</graphicClass><shaderType>Cutout</shaderType></graphicData>
+    <thingCategories><li>MMP_PoliceApparel</li></thingCategories>
+    <statBases><MaxHitPoints>120</MaxHitPoints><WorkToMake>160</WorkToMake><Mass>0.35</Mass><EquipDelay>0.5</EquipDelay></statBases><costList><Steel>8</Steel><ComponentIndustrial>1</ComponentIndustrial></costList>
+    <apparel><wornGraphicPath>Things/Item/Apparel/MMP_BodycamShoulderLight/MMP_BodycamShoulderLight</wornGraphicPath><layers><li>MMP_Device</li></layers><bodyPartGroups><li>Torso</li><li>Shoulders</li></bodyPartGroups></apparel>
+    <equippedStatOffsets><GlobalWorkSpeed>0.03</GlobalWorkSpeed></equippedStatOffsets>
+    <recipeMaker><useIngredientsForColor>false</useIngredientsForColor><workSpeedStat>GeneralLaborSpeed</workSpeedStat><workSkill>Crafting</workSkill><effectWorking>Tailor</effectWorking><soundWorking>Recipe_Tailor</soundWorking><recipeUsers><li>ElectricTailoringBench</li><li>HandTailoringBench</li></recipeUsers></recipeMaker>
+  </ThingDef>
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>MMP_PolicePeakedCap</defName><label>民警｜大檐帽</label><description>一般民警使用的制式大檐帽。</description>
+    <graphicData><texPath>Things/Item/Apparel/MMP_PolicePeakedCap/MMP_PolicePeakedCap</texPath><graphicClass>Graphic_Single</graphicClass><shaderType>Cutout</shaderType></graphicData>
+    <thingCategories><li>MMP_PoliceApparel</li></thingCategories>
+    <statBases><MaxHitPoints>100</MaxHitPoints><WorkToMake>150</WorkToMake><Mass>0.25</Mass><EquipDelay>0.5</EquipDelay><Insulation_Cold>2</Insulation_Cold><Insulation_Heat>2</Insulation_Heat></statBases><costList><Cloth>20</Cloth></costList>
+    <apparel><wornGraphicPath>Things/Item/Apparel/MMP_PolicePeakedCap/MMP_PolicePeakedCap</wornGraphicPath><layers><li>Overhead</li></layers><bodyPartGroups><li>UpperHead</li></bodyPartGroups></apparel>
+    <equippedStatOffsets><SocialImpact>0.05</SocialImpact></equippedStatOffsets>
+    <recipeMaker><useIngredientsForColor>false</useIngredientsForColor><workSpeedStat>GeneralLaborSpeed</workSpeedStat><workSkill>Crafting</workSkill><effectWorking>Tailor</effectWorking><soundWorking>Recipe_Tailor</soundWorking><recipeUsers><li>ElectricTailoringBench</li><li>HandTailoringBench</li></recipeUsers></recipeMaker>
+  </ThingDef>
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>MMP_PoliceDutyCap</defName><label>民警｜执勤帽</label><description>一般民警日常执勤使用的轻便执勤帽。</description>
+    <graphicData><texPath>Things/Item/Apparel/MMP_PoliceDutyCap/MMP_PoliceDutyCap</texPath><graphicClass>Graphic_Single</graphicClass><shaderType>Cutout</shaderType></graphicData>
+    <thingCategories><li>MMP_PoliceApparel</li></thingCategories>
+    <statBases><MaxHitPoints>100</MaxHitPoints><WorkToMake>150</WorkToMake><Mass>0.25</Mass><EquipDelay>0.5</EquipDelay><Insulation_Cold>2</Insulation_Cold><Insulation_Heat>2</Insulation_Heat></statBases><costList><Cloth>18</Cloth></costList>
+    <apparel><wornGraphicPath>Things/Item/Apparel/MMP_PoliceDutyCap/MMP_PoliceDutyCap</wornGraphicPath><layers><li>Overhead</li></layers><bodyPartGroups><li>UpperHead</li></bodyPartGroups></apparel>
+    
+    <recipeMaker><useIngredientsForColor>false</useIngredientsForColor><workSpeedStat>GeneralLaborSpeed</workSpeedStat><workSkill>Crafting</workSkill><effectWorking>Tailor</effectWorking><soundWorking>Recipe_Tailor</soundWorking><recipeUsers><li>ElectricTailoringBench</li><li>HandTailoringBench</li></recipeUsers></recipeMaker>
+  </ThingDef>
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>MMP_AuxDutyCap</defName><label>辅警｜执勤帽</label><description>辅警日常执勤使用的独立制式帽。</description>
+    <graphicData><texPath>Things/Item/Apparel/MMP_AuxDutyCap/MMP_AuxDutyCap</texPath><graphicClass>Graphic_Single</graphicClass><shaderType>Cutout</shaderType></graphicData>
+    <thingCategories><li>MMP_PoliceApparel</li></thingCategories>
+    <statBases><MaxHitPoints>100</MaxHitPoints><WorkToMake>150</WorkToMake><Mass>0.25</Mass><EquipDelay>0.5</EquipDelay><Insulation_Cold>2</Insulation_Cold><Insulation_Heat>2</Insulation_Heat></statBases><costList><Cloth>18</Cloth></costList>
+    <apparel><wornGraphicPath>Things/Item/Apparel/MMP_AuxDutyCap/MMP_AuxDutyCap</wornGraphicPath><layers><li>Overhead</li></layers><bodyPartGroups><li>UpperHead</li></bodyPartGroups></apparel>
+    
+    <recipeMaker><useIngredientsForColor>false</useIngredientsForColor><workSpeedStat>GeneralLaborSpeed</workSpeedStat><workSkill>Crafting</workSkill><effectWorking>Tailor</effectWorking><soundWorking>Recipe_Tailor</soundWorking><recipeUsers><li>ElectricTailoringBench</li><li>HandTailoringBench</li></recipeUsers></recipeMaker>
+  </ThingDef>
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>MMP_SWATBeret</defName><label>特警｜贝雷帽</label><description>公安特警使用的贝雷帽。</description>
+    <graphicData><texPath>Things/Item/Apparel/MMP_SWATBeret/MMP_SWATBeret</texPath><graphicClass>Graphic_Single</graphicClass><shaderType>Cutout</shaderType></graphicData>
+    <thingCategories><li>MMP_PoliceApparel</li></thingCategories>
+    <statBases><MaxHitPoints>100</MaxHitPoints><WorkToMake>150</WorkToMake><Mass>0.25</Mass><EquipDelay>0.5</EquipDelay><Insulation_Cold>2</Insulation_Cold><Insulation_Heat>2</Insulation_Heat></statBases><costList><Cloth>18</Cloth></costList>
+    <apparel><wornGraphicPath>Things/Item/Apparel/MMP_SWATBeret/MMP_SWATBeret</wornGraphicPath><layers><li>Overhead</li></layers><bodyPartGroups><li>UpperHead</li></bodyPartGroups></apparel>
+    
+    <recipeMaker><useIngredientsForColor>false</useIngredientsForColor><workSpeedStat>GeneralLaborSpeed</workSpeedStat><workSkill>Crafting</workSkill><effectWorking>Tailor</effectWorking><soundWorking>Recipe_Tailor</soundWorking><recipeUsers><li>ElectricTailoringBench</li><li>HandTailoringBench</li></recipeUsers></recipeMaker>
+  </ThingDef>
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>MMP_Rank_F1_Insignia</defName><label>一级辅警｜肩章</label><description>沿用 CPOLICE 等级命名体系制作的鼠族肩章。</description>
+    <graphicData><texPath>Things/Item/Apparel/MMP_Rank_F1_Insignia/MMP_Rank_F1_Insignia</texPath><graphicClass>Graphic_Single</graphicClass><shaderType>Cutout</shaderType></graphicData>
+    <thingCategories><li>MMP_PoliceApparel</li></thingCategories>
+    <statBases><MaxHitPoints>80</MaxHitPoints><WorkToMake>30</WorkToMake><Mass>0.05</Mass><EquipDelay>0.15</EquipDelay></statBases><costList><Cloth>2</Cloth></costList>
+    <apparel><wornGraphicPath>Things/Item/Apparel/MMP_Rank_F1_Insignia/MMP_Rank_F1_Insignia</wornGraphicPath><layers><li>MMP_Rank</li></layers><bodyPartGroups><li>Shoulders</li></bodyPartGroups></apparel>
+    
+    <recipeMaker><useIngredientsForColor>false</useIngredientsForColor><workSpeedStat>GeneralLaborSpeed</workSpeedStat><workSkill>Crafting</workSkill><effectWorking>Tailor</effectWorking><soundWorking>Recipe_Tailor</soundWorking><recipeUsers><li>ElectricTailoringBench</li><li>HandTailoringBench</li></recipeUsers></recipeMaker>
+  </ThingDef>
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>MMP_Rank_F2_Insignia</defName><label>二级辅警｜肩章</label><description>沿用 CPOLICE 等级命名体系制作的鼠族肩章。</description>
+    <graphicData><texPath>Things/Item/Apparel/MMP_Rank_F2_Insignia/MMP_Rank_F2_Insignia</texPath><graphicClass>Graphic_Single</graphicClass><shaderType>Cutout</shaderType></graphicData>
+    <thingCategories><li>MMP_PoliceApparel</li></thingCategories>
+    <statBases><MaxHitPoints>80</MaxHitPoints><WorkToMake>30</WorkToMake><Mass>0.05</Mass><EquipDelay>0.15</EquipDelay></statBases><costList><Cloth>2</Cloth></costList>
+    <apparel><wornGraphicPath>Things/Item/Apparel/MMP_Rank_F2_Insignia/MMP_Rank_F2_Insignia</wornGraphicPath><layers><li>MMP_Rank</li></layers><bodyPartGroups><li>Shoulders</li></bodyPartGroups></apparel>
+    
+    <recipeMaker><useIngredientsForColor>false</useIngredientsForColor><workSpeedStat>GeneralLaborSpeed</workSpeedStat><workSkill>Crafting</workSkill><effectWorking>Tailor</effectWorking><soundWorking>Recipe_Tailor</soundWorking><recipeUsers><li>ElectricTailoringBench</li><li>HandTailoringBench</li></recipeUsers></recipeMaker>
+  </ThingDef>
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>MMP_Rank_F3_Insignia</defName><label>三级辅警｜肩章</label><description>沿用 CPOLICE 等级命名体系制作的鼠族肩章。</description>
+    <graphicData><texPath>Things/Item/Apparel/MMP_Rank_F3_Insignia/MMP_Rank_F3_Insignia</texPath><graphicClass>Graphic_Single</graphicClass><shaderType>Cutout</shaderType></graphicData>
+    <thingCategories><li>MMP_PoliceApparel</li></thingCategories>
+    <statBases><MaxHitPoints>80</MaxHitPoints><WorkToMake>30</WorkToMake><Mass>0.05</Mass><EquipDelay>0.15</EquipDelay></statBases><costList><Cloth>2</Cloth></costList>
+    <apparel><wornGraphicPath>Things/Item/Apparel/MMP_Rank_F3_Insignia/MMP_Rank_F3_Insignia</wornGraphicPath><layers><li>MMP_Rank</li></layers><bodyPartGroups><li>Shoulders</li></bodyPartGroups></apparel>
+    
+    <recipeMaker><useIngredientsForColor>false</useIngredientsForColor><workSpeedStat>GeneralLaborSpeed</workSpeedStat><workSkill>Crafting</workSkill><effectWorking>Tailor</effectWorking><soundWorking>Recipe_Tailor</soundWorking><recipeUsers><li>ElectricTailoringBench</li><li>HandTailoringBench</li></recipeUsers></recipeMaker>
+  </ThingDef>
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>MMP_Rank_F4_Insignia</defName><label>四级辅警｜肩章</label><description>沿用 CPOLICE 等级命名体系制作的鼠族肩章。</description>
+    <graphicData><texPath>Things/Item/Apparel/MMP_Rank_F4_Insignia/MMP_Rank_F4_Insignia</texPath><graphicClass>Graphic_Single</graphicClass><shaderType>Cutout</shaderType></graphicData>
+    <thingCategories><li>MMP_PoliceApparel</li></thingCategories>
+    <statBases><MaxHitPoints>80</MaxHitPoints><WorkToMake>30</WorkToMake><Mass>0.05</Mass><EquipDelay>0.15</EquipDelay></statBases><costList><Cloth>2</Cloth></costList>
+    <apparel><wornGraphicPath>Things/Item/Apparel/MMP_Rank_F4_Insignia/MMP_Rank_F4_Insignia</wornGraphicPath><layers><li>MMP_Rank</li></layers><bodyPartGroups><li>Shoulders</li></bodyPartGroups></apparel>
+    
+    <recipeMaker><useIngredientsForColor>false</useIngredientsForColor><workSpeedStat>GeneralLaborSpeed</workSpeedStat><workSkill>Crafting</workSkill><effectWorking>Tailor</effectWorking><soundWorking>Recipe_Tailor</soundWorking><recipeUsers><li>ElectricTailoringBench</li><li>HandTailoringBench</li></recipeUsers></recipeMaker>
+  </ThingDef>
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>MMP_Rank_F5_Insignia</defName><label>五级辅警｜肩章</label><description>沿用 CPOLICE 等级命名体系制作的鼠族肩章。</description>
+    <graphicData><texPath>Things/Item/Apparel/MMP_Rank_F5_Insignia/MMP_Rank_F5_Insignia</texPath><graphicClass>Graphic_Single</graphicClass><shaderType>Cutout</shaderType></graphicData>
+    <thingCategories><li>MMP_PoliceApparel</li></thingCategories>
+    <statBases><MaxHitPoints>80</MaxHitPoints><WorkToMake>30</WorkToMake><Mass>0.05</Mass><EquipDelay>0.15</EquipDelay></statBases><costList><Cloth>2</Cloth></costList>
+    <apparel><wornGraphicPath>Things/Item/Apparel/MMP_Rank_F5_Insignia/MMP_Rank_F5_Insignia</wornGraphicPath><layers><li>MMP_Rank</li></layers><bodyPartGroups><li>Shoulders</li></bodyPartGroups></apparel>
+    
+    <recipeMaker><useIngredientsForColor>false</useIngredientsForColor><workSpeedStat>GeneralLaborSpeed</workSpeedStat><workSkill>Crafting</workSkill><effectWorking>Tailor</effectWorking><soundWorking>Recipe_Tailor</soundWorking><recipeUsers><li>ElectricTailoringBench</li><li>HandTailoringBench</li></recipeUsers></recipeMaker>
+  </ThingDef>
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>MMP_Rank_F6_Insignia</defName><label>六级辅警｜肩章</label><description>沿用 CPOLICE 等级命名体系制作的鼠族肩章。</description>
+    <graphicData><texPath>Things/Item/Apparel/MMP_Rank_F6_Insignia/MMP_Rank_F6_Insignia</texPath><graphicClass>Graphic_Single</graphicClass><shaderType>Cutout</shaderType></graphicData>
+    <thingCategories><li>MMP_PoliceApparel</li></thingCategories>
+    <statBases><MaxHitPoints>80</MaxHitPoints><WorkToMake>30</WorkToMake><Mass>0.05</Mass><EquipDelay>0.15</EquipDelay></statBases><costList><Cloth>2</Cloth></costList>
+    <apparel><wornGraphicPath>Things/Item/Apparel/MMP_Rank_F6_Insignia/MMP_Rank_F6_Insignia</wornGraphicPath><layers><li>MMP_Rank</li></layers><bodyPartGroups><li>Shoulders</li></bodyPartGroups></apparel>
+    
+    <recipeMaker><useIngredientsForColor>false</useIngredientsForColor><workSpeedStat>GeneralLaborSpeed</workSpeedStat><workSkill>Crafting</workSkill><effectWorking>Tailor</effectWorking><soundWorking>Recipe_Tailor</soundWorking><recipeUsers><li>ElectricTailoringBench</li><li>HandTailoringBench</li></recipeUsers></recipeMaker>
+  </ThingDef>
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>MMP_Rank_F7_Insignia</defName><label>七级辅警｜肩章</label><description>沿用 CPOLICE 等级命名体系制作的鼠族肩章。</description>
+    <graphicData><texPath>Things/Item/Apparel/MMP_Rank_F7_Insignia/MMP_Rank_F7_Insignia</texPath><graphicClass>Graphic_Single</graphicClass><shaderType>Cutout</shaderType></graphicData>
+    <thingCategories><li>MMP_PoliceApparel</li></thingCategories>
+    <statBases><MaxHitPoints>80</MaxHitPoints><WorkToMake>30</WorkToMake><Mass>0.05</Mass><EquipDelay>0.15</EquipDelay></statBases><costList><Cloth>2</Cloth></costList>
+    <apparel><wornGraphicPath>Things/Item/Apparel/MMP_Rank_F7_Insignia/MMP_Rank_F7_Insignia</wornGraphicPath><layers><li>MMP_Rank</li></layers><bodyPartGroups><li>Shoulders</li></bodyPartGroups></apparel>
+    
+    <recipeMaker><useIngredientsForColor>false</useIngredientsForColor><workSpeedStat>GeneralLaborSpeed</workSpeedStat><workSkill>Crafting</workSkill><effectWorking>Tailor</effectWorking><soundWorking>Recipe_Tailor</soundWorking><recipeUsers><li>ElectricTailoringBench</li><li>HandTailoringBench</li></recipeUsers></recipeMaker>
+  </ThingDef>
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>MMP_Rank_F8_Insignia</defName><label>八级辅警｜肩章</label><description>沿用 CPOLICE 等级命名体系制作的鼠族肩章。</description>
+    <graphicData><texPath>Things/Item/Apparel/MMP_Rank_F8_Insignia/MMP_Rank_F8_Insignia</texPath><graphicClass>Graphic_Single</graphicClass><shaderType>Cutout</shaderType></graphicData>
+    <thingCategories><li>MMP_PoliceApparel</li></thingCategories>
+    <statBases><MaxHitPoints>80</MaxHitPoints><WorkToMake>30</WorkToMake><Mass>0.05</Mass><EquipDelay>0.15</EquipDelay></statBases><costList><Cloth>2</Cloth></costList>
+    <apparel><wornGraphicPath>Things/Item/Apparel/MMP_Rank_F8_Insignia/MMP_Rank_F8_Insignia</wornGraphicPath><layers><li>MMP_Rank</li></layers><bodyPartGroups><li>Shoulders</li></bodyPartGroups></apparel>
+    
+    <recipeMaker><useIngredientsForColor>false</useIngredientsForColor><workSpeedStat>GeneralLaborSpeed</workSpeedStat><workSkill>Crafting</workSkill><effectWorking>Tailor</effectWorking><soundWorking>Recipe_Tailor</soundWorking><recipeUsers><li>ElectricTailoringBench</li><li>HandTailoringBench</li></recipeUsers></recipeMaker>
+  </ThingDef>
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>MMP_Rank_J1_Insignia</defName><label>二级警员｜肩章</label><description>沿用 CPOLICE 等级命名体系制作的鼠族肩章。</description>
+    <graphicData><texPath>Things/Item/Apparel/MMP_Rank_J1_Insignia/MMP_Rank_J1_Insignia</texPath><graphicClass>Graphic_Single</graphicClass><shaderType>Cutout</shaderType></graphicData>
+    <thingCategories><li>MMP_PoliceApparel</li></thingCategories>
+    <statBases><MaxHitPoints>80</MaxHitPoints><WorkToMake>30</WorkToMake><Mass>0.05</Mass><EquipDelay>0.15</EquipDelay></statBases><costList><Cloth>2</Cloth></costList>
+    <apparel><wornGraphicPath>Things/Item/Apparel/MMP_Rank_J1_Insignia/MMP_Rank_J1_Insignia</wornGraphicPath><layers><li>MMP_Rank</li></layers><bodyPartGroups><li>Shoulders</li></bodyPartGroups></apparel>
+    
+    <recipeMaker><useIngredientsForColor>false</useIngredientsForColor><workSpeedStat>GeneralLaborSpeed</workSpeedStat><workSkill>Crafting</workSkill><effectWorking>Tailor</effectWorking><soundWorking>Recipe_Tailor</soundWorking><recipeUsers><li>ElectricTailoringBench</li><li>HandTailoringBench</li></recipeUsers></recipeMaker>
+  </ThingDef>
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>MMP_Rank_J2_Insignia</defName><label>一级警员｜肩章</label><description>沿用 CPOLICE 等级命名体系制作的鼠族肩章。</description>
+    <graphicData><texPath>Things/Item/Apparel/MMP_Rank_J2_Insignia/MMP_Rank_J2_Insignia</texPath><graphicClass>Graphic_Single</graphicClass><shaderType>Cutout</shaderType></graphicData>
+    <thingCategories><li>MMP_PoliceApparel</li></thingCategories>
+    <statBases><MaxHitPoints>80</MaxHitPoints><WorkToMake>30</WorkToMake><Mass>0.05</Mass><EquipDelay>0.15</EquipDelay></statBases><costList><Cloth>2</Cloth></costList>
+    <apparel><wornGraphicPath>Things/Item/Apparel/MMP_Rank_J2_Insignia/MMP_Rank_J2_Insignia</wornGraphicPath><layers><li>MMP_Rank</li></layers><bodyPartGroups><li>Shoulders</li></bodyPartGroups></apparel>
+    
+    <recipeMaker><useIngredientsForColor>false</useIngredientsForColor><workSpeedStat>GeneralLaborSpeed</workSpeedStat><workSkill>Crafting</workSkill><effectWorking>Tailor</effectWorking><soundWorking>Recipe_Tailor</soundWorking><recipeUsers><li>ElectricTailoringBench</li><li>HandTailoringBench</li></recipeUsers></recipeMaker>
+  </ThingDef>
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>MMP_Rank_J3_Insignia</defName><label>三级警司｜肩章</label><description>沿用 CPOLICE 等级命名体系制作的鼠族肩章。</description>
+    <graphicData><texPath>Things/Item/Apparel/MMP_Rank_J3_Insignia/MMP_Rank_J3_Insignia</texPath><graphicClass>Graphic_Single</graphicClass><shaderType>Cutout</shaderType></graphicData>
+    <thingCategories><li>MMP_PoliceApparel</li></thingCategories>
+    <statBases><MaxHitPoints>80</MaxHitPoints><WorkToMake>30</WorkToMake><Mass>0.05</Mass><EquipDelay>0.15</EquipDelay></statBases><costList><Cloth>2</Cloth></costList>
+    <apparel><wornGraphicPath>Things/Item/Apparel/MMP_Rank_J3_Insignia/MMP_Rank_J3_Insignia</wornGraphicPath><layers><li>MMP_Rank</li></layers><bodyPartGroups><li>Shoulders</li></bodyPartGroups></apparel>
+    
+    <recipeMaker><useIngredientsForColor>false</useIngredientsForColor><workSpeedStat>GeneralLaborSpeed</workSpeedStat><workSkill>Crafting</workSkill><effectWorking>Tailor</effectWorking><soundWorking>Recipe_Tailor</soundWorking><recipeUsers><li>ElectricTailoringBench</li><li>HandTailoringBench</li></recipeUsers></recipeMaker>
+  </ThingDef>
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>MMP_Rank_J4_Insignia</defName><label>二级警司｜肩章</label><description>沿用 CPOLICE 等级命名体系制作的鼠族肩章。</description>
+    <graphicData><texPath>Things/Item/Apparel/MMP_Rank_J4_Insignia/MMP_Rank_J4_Insignia</texPath><graphicClass>Graphic_Single</graphicClass><shaderType>Cutout</shaderType></graphicData>
+    <thingCategories><li>MMP_PoliceApparel</li></thingCategories>
+    <statBases><MaxHitPoints>80</MaxHitPoints><WorkToMake>30</WorkToMake><Mass>0.05</Mass><EquipDelay>0.15</EquipDelay></statBases><costList><Cloth>2</Cloth></costList>
+    <apparel><wornGraphicPath>Things/Item/Apparel/MMP_Rank_J4_Insignia/MMP_Rank_J4_Insignia</wornGraphicPath><layers><li>MMP_Rank</li></layers><bodyPartGroups><li>Shoulders</li></bodyPartGroups></apparel>
+    
+    <recipeMaker><useIngredientsForColor>false</useIngredientsForColor><workSpeedStat>GeneralLaborSpeed</workSpeedStat><workSkill>Crafting</workSkill><effectWorking>Tailor</effectWorking><soundWorking>Recipe_Tailor</soundWorking><recipeUsers><li>ElectricTailoringBench</li><li>HandTailoringBench</li></recipeUsers></recipeMaker>
+  </ThingDef>
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>MMP_Rank_J5_Insignia</defName><label>一级警司｜肩章</label><description>沿用 CPOLICE 等级命名体系制作的鼠族肩章。</description>
+    <graphicData><texPath>Things/Item/Apparel/MMP_Rank_J5_Insignia/MMP_Rank_J5_Insignia</texPath><graphicClass>Graphic_Single</graphicClass><shaderType>Cutout</shaderType></graphicData>
+    <thingCategories><li>MMP_PoliceApparel</li></thingCategories>
+    <statBases><MaxHitPoints>80</MaxHitPoints><WorkToMake>30</WorkToMake><Mass>0.05</Mass><EquipDelay>0.15</EquipDelay></statBases><costList><Cloth>2</Cloth></costList>
+    <apparel><wornGraphicPath>Things/Item/Apparel/MMP_Rank_J5_Insignia/MMP_Rank_J5_Insignia</wornGraphicPath><layers><li>MMP_Rank</li></layers><bodyPartGroups><li>Shoulders</li></bodyPartGroups></apparel>
+    
+    <recipeMaker><useIngredientsForColor>false</useIngredientsForColor><workSpeedStat>GeneralLaborSpeed</workSpeedStat><workSkill>Crafting</workSkill><effectWorking>Tailor</effectWorking><soundWorking>Recipe_Tailor</soundWorking><recipeUsers><li>ElectricTailoringBench</li><li>HandTailoringBench</li></recipeUsers></recipeMaker>
+  </ThingDef>
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>MMP_Rank_J6_Insignia</defName><label>三级警督｜肩章</label><description>沿用 CPOLICE 等级命名体系制作的鼠族肩章。</description>
+    <graphicData><texPath>Things/Item/Apparel/MMP_Rank_J6_Insignia/MMP_Rank_J6_Insignia</texPath><graphicClass>Graphic_Single</graphicClass><shaderType>Cutout</shaderType></graphicData>
+    <thingCategories><li>MMP_PoliceApparel</li></thingCategories>
+    <statBases><MaxHitPoints>80</MaxHitPoints><WorkToMake>30</WorkToMake><Mass>0.05</Mass><EquipDelay>0.15</EquipDelay></statBases><costList><Cloth>2</Cloth></costList>
+    <apparel><wornGraphicPath>Things/Item/Apparel/MMP_Rank_J6_Insignia/MMP_Rank_J6_Insignia</wornGraphicPath><layers><li>MMP_Rank</li></layers><bodyPartGroups><li>Shoulders</li></bodyPartGroups></apparel>
+    
+    <recipeMaker><useIngredientsForColor>false</useIngredientsForColor><workSpeedStat>GeneralLaborSpeed</workSpeedStat><workSkill>Crafting</workSkill><effectWorking>Tailor</effectWorking><soundWorking>Recipe_Tailor</soundWorking><recipeUsers><li>ElectricTailoringBench</li><li>HandTailoringBench</li></recipeUsers></recipeMaker>
+  </ThingDef>
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>MMP_Rank_J7_Insignia</defName><label>二级警督｜肩章</label><description>沿用 CPOLICE 等级命名体系制作的鼠族肩章。</description>
+    <graphicData><texPath>Things/Item/Apparel/MMP_Rank_J7_Insignia/MMP_Rank_J7_Insignia</texPath><graphicClass>Graphic_Single</graphicClass><shaderType>Cutout</shaderType></graphicData>
+    <thingCategories><li>MMP_PoliceApparel</li></thingCategories>
+    <statBases><MaxHitPoints>80</MaxHitPoints><WorkToMake>30</WorkToMake><Mass>0.05</Mass><EquipDelay>0.15</EquipDelay></statBases><costList><Cloth>2</Cloth></costList>
+    <apparel><wornGraphicPath>Things/Item/Apparel/MMP_Rank_J7_Insignia/MMP_Rank_J7_Insignia</wornGraphicPath><layers><li>MMP_Rank</li></layers><bodyPartGroups><li>Shoulders</li></bodyPartGroups></apparel>
+    
+    <recipeMaker><useIngredientsForColor>false</useIngredientsForColor><workSpeedStat>GeneralLaborSpeed</workSpeedStat><workSkill>Crafting</workSkill><effectWorking>Tailor</effectWorking><soundWorking>Recipe_Tailor</soundWorking><recipeUsers><li>ElectricTailoringBench</li><li>HandTailoringBench</li></recipeUsers></recipeMaker>
+  </ThingDef>
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>MMP_Rank_J8_Insignia</defName><label>一级警督｜肩章</label><description>沿用 CPOLICE 等级命名体系制作的鼠族肩章。</description>
+    <graphicData><texPath>Things/Item/Apparel/MMP_Rank_J8_Insignia/MMP_Rank_J8_Insignia</texPath><graphicClass>Graphic_Single</graphicClass><shaderType>Cutout</shaderType></graphicData>
+    <thingCategories><li>MMP_PoliceApparel</li></thingCategories>
+    <statBases><MaxHitPoints>80</MaxHitPoints><WorkToMake>30</WorkToMake><Mass>0.05</Mass><EquipDelay>0.15</EquipDelay></statBases><costList><Cloth>2</Cloth></costList>
+    <apparel><wornGraphicPath>Things/Item/Apparel/MMP_Rank_J8_Insignia/MMP_Rank_J8_Insignia</wornGraphicPath><layers><li>MMP_Rank</li></layers><bodyPartGroups><li>Shoulders</li></bodyPartGroups></apparel>
+    
+    <recipeMaker><useIngredientsForColor>false</useIngredientsForColor><workSpeedStat>GeneralLaborSpeed</workSpeedStat><workSkill>Crafting</workSkill><effectWorking>Tailor</effectWorking><soundWorking>Recipe_Tailor</soundWorking><recipeUsers><li>ElectricTailoringBench</li><li>HandTailoringBench</li></recipeUsers></recipeMaker>
+  </ThingDef>
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>MMP_Rank_J9_Insignia</defName><label>三级警监｜肩章</label><description>沿用 CPOLICE 等级命名体系制作的鼠族肩章。</description>
+    <graphicData><texPath>Things/Item/Apparel/MMP_Rank_J9_Insignia/MMP_Rank_J9_Insignia</texPath><graphicClass>Graphic_Single</graphicClass><shaderType>Cutout</shaderType></graphicData>
+    <thingCategories><li>MMP_PoliceApparel</li></thingCategories>
+    <statBases><MaxHitPoints>80</MaxHitPoints><WorkToMake>30</WorkToMake><Mass>0.05</Mass><EquipDelay>0.15</EquipDelay></statBases><costList><Cloth>2</Cloth></costList>
+    <apparel><wornGraphicPath>Things/Item/Apparel/MMP_Rank_J9_Insignia/MMP_Rank_J9_Insignia</wornGraphicPath><layers><li>MMP_Rank</li></layers><bodyPartGroups><li>Shoulders</li></bodyPartGroups></apparel>
+    
+    <recipeMaker><useIngredientsForColor>false</useIngredientsForColor><workSpeedStat>GeneralLaborSpeed</workSpeedStat><workSkill>Crafting</workSkill><effectWorking>Tailor</effectWorking><soundWorking>Recipe_Tailor</soundWorking><recipeUsers><li>ElectricTailoringBench</li><li>HandTailoringBench</li></recipeUsers></recipeMaker>
+  </ThingDef>
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>MMP_Rank_J10_Insignia</defName><label>二级警监｜肩章</label><description>沿用 CPOLICE 等级命名体系制作的鼠族肩章。</description>
+    <graphicData><texPath>Things/Item/Apparel/MMP_Rank_J10_Insignia/MMP_Rank_J10_Insignia</texPath><graphicClass>Graphic_Single</graphicClass><shaderType>Cutout</shaderType></graphicData>
+    <thingCategories><li>MMP_PoliceApparel</li></thingCategories>
+    <statBases><MaxHitPoints>80</MaxHitPoints><WorkToMake>30</WorkToMake><Mass>0.05</Mass><EquipDelay>0.15</EquipDelay></statBases><costList><Cloth>2</Cloth></costList>
+    <apparel><wornGraphicPath>Things/Item/Apparel/MMP_Rank_J10_Insignia/MMP_Rank_J10_Insignia</wornGraphicPath><layers><li>MMP_Rank</li></layers><bodyPartGroups><li>Shoulders</li></bodyPartGroups></apparel>
+    
+    <recipeMaker><useIngredientsForColor>false</useIngredientsForColor><workSpeedStat>GeneralLaborSpeed</workSpeedStat><workSkill>Crafting</workSkill><effectWorking>Tailor</effectWorking><soundWorking>Recipe_Tailor</soundWorking><recipeUsers><li>ElectricTailoringBench</li><li>HandTailoringBench</li></recipeUsers></recipeMaker>
+  </ThingDef>
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>MMP_Rank_J11_Insignia</defName><label>一级警监｜肩章</label><description>沿用 CPOLICE 等级命名体系制作的鼠族肩章。</description>
+    <graphicData><texPath>Things/Item/Apparel/MMP_Rank_J11_Insignia/MMP_Rank_J11_Insignia</texPath><graphicClass>Graphic_Single</graphicClass><shaderType>Cutout</shaderType></graphicData>
+    <thingCategories><li>MMP_PoliceApparel</li></thingCategories>
+    <statBases><MaxHitPoints>80</MaxHitPoints><WorkToMake>30</WorkToMake><Mass>0.05</Mass><EquipDelay>0.15</EquipDelay></statBases><costList><Cloth>2</Cloth></costList>
+    <apparel><wornGraphicPath>Things/Item/Apparel/MMP_Rank_J11_Insignia/MMP_Rank_J11_Insignia</wornGraphicPath><layers><li>MMP_Rank</li></layers><bodyPartGroups><li>Shoulders</li></bodyPartGroups></apparel>
+    
+    <recipeMaker><useIngredientsForColor>false</useIngredientsForColor><workSpeedStat>GeneralLaborSpeed</workSpeedStat><workSkill>Crafting</workSkill><effectWorking>Tailor</effectWorking><soundWorking>Recipe_Tailor</soundWorking><recipeUsers><li>ElectricTailoringBench</li><li>HandTailoringBench</li></recipeUsers></recipeMaker>
+  </ThingDef>
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>MMP_Rank_J12_Insignia</defName><label>副总警监｜肩章</label><description>沿用 CPOLICE 等级命名体系制作的鼠族肩章。</description>
+    <graphicData><texPath>Things/Item/Apparel/MMP_Rank_J12_Insignia/MMP_Rank_J12_Insignia</texPath><graphicClass>Graphic_Single</graphicClass><shaderType>Cutout</shaderType></graphicData>
+    <thingCategories><li>MMP_PoliceApparel</li></thingCategories>
+    <statBases><MaxHitPoints>80</MaxHitPoints><WorkToMake>30</WorkToMake><Mass>0.05</Mass><EquipDelay>0.15</EquipDelay></statBases><costList><Cloth>2</Cloth></costList>
+    <apparel><wornGraphicPath>Things/Item/Apparel/MMP_Rank_J12_Insignia/MMP_Rank_J12_Insignia</wornGraphicPath><layers><li>MMP_Rank</li></layers><bodyPartGroups><li>Shoulders</li></bodyPartGroups></apparel>
+    
+    <recipeMaker><useIngredientsForColor>false</useIngredientsForColor><workSpeedStat>GeneralLaborSpeed</workSpeedStat><workSkill>Crafting</workSkill><effectWorking>Tailor</effectWorking><soundWorking>Recipe_Tailor</soundWorking><recipeUsers><li>ElectricTailoringBench</li><li>HandTailoringBench</li></recipeUsers></recipeMaker>
+  </ThingDef>
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>MMP_Rank_J13_Insignia</defName><label>总警监｜肩章</label><description>沿用 CPOLICE 等级命名体系制作的鼠族肩章。</description>
+    <graphicData><texPath>Things/Item/Apparel/MMP_Rank_J13_Insignia/MMP_Rank_J13_Insignia</texPath><graphicClass>Graphic_Single</graphicClass><shaderType>Cutout</shaderType></graphicData>
+    <thingCategories><li>MMP_PoliceApparel</li></thingCategories>
+    <statBases><MaxHitPoints>80</MaxHitPoints><WorkToMake>30</WorkToMake><Mass>0.05</Mass><EquipDelay>0.15</EquipDelay></statBases><costList><Cloth>2</Cloth></costList>
+    <apparel><wornGraphicPath>Things/Item/Apparel/MMP_Rank_J13_Insignia/MMP_Rank_J13_Insignia</wornGraphicPath><layers><li>MMP_Rank</li></layers><bodyPartGroups><li>Shoulders</li></bodyPartGroups></apparel>
+    
+    <recipeMaker><useIngredientsForColor>false</useIngredientsForColor><workSpeedStat>GeneralLaborSpeed</workSpeedStat><workSkill>Crafting</workSkill><effectWorking>Tailor</effectWorking><soundWorking>Recipe_Tailor</soundWorking><recipeUsers><li>ElectricTailoringBench</li><li>HandTailoringBench</li></recipeUsers></recipeMaker>
+  </ThingDef>
+</Defs>

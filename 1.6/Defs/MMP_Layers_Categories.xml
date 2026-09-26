@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ApparelLayerDef><defName>MMP_Uniform</defName><label>mouse police uniform</label><drawOrder>300</drawOrder></ApparelLayerDef>
+  <ApparelLayerDef><defName>MMP_Rank</defName><label>mouse police rank</label><drawOrder>330</drawOrder></ApparelLayerDef>
+  <ApparelLayerDef><defName>MMP_Vest</defName><label>mouse police vest</label><drawOrder>340</drawOrder></ApparelLayerDef>
+  <ApparelLayerDef><defName>MMP_Device</defName><label>mouse police device</label><drawOrder>350</drawOrder></ApparelLayerDef>
+  <ApparelLayerDef><defName>MMP_Belt</defName><label>mouse police belt</label><drawOrder>360</drawOrder></ApparelLayerDef>
+  <ThingCategoryDef><defName>MMP_PoliceApparel</defName><label>鼠鼠警官装备</label><parent>Apparel</parent></ThingCategoryDef>
+</Defs>
