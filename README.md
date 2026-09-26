@@ -1,4 +1,4 @@
-# 鼠鼠警官Mod
+# Ratkin Police｜鼠民警察
 
 RimWorld 1.6 / Ratkin 装备 Mod。
 
