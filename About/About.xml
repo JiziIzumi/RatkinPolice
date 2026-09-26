@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <name>鼠鼠警官Mod</name>
+  <name>Ratkin Police｜鼠民警察</name>
   <author>JiziIzumi</author>
   <packageId>jiziizumi.mousepolice</packageId>
   <supportedVersions><li>1.6</li></supportedVersions>
-  <description>为 Ratkin 鼠族制作的精简中国警察装备扩展。包含民警、辅警、特警执勤/秋冬制服，两种执勤腰带，三种背心，执法记录仪与肩灯，四种帽类，以及继承 CPOLICE 命名体系的 21 级肩章。</description>
+  <description>Ratkin Police｜鼠民警察：为 Ratkin 鼠族制作的精简中国警察装备扩展。包含民警、辅警、特警执勤/秋冬制服，两种执勤腰带，三种背心，执法记录仪与肩灯，四种帽类，以及继承 CPOLICE 命名体系的 21 级肩章。</description>
   <loadAfter>
     <li>Solaris.RatkinRaceMod</li>
     <li>erdelf.HumanoidAlienRaces</li>
