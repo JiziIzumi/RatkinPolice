@@ -18,7 +18,7 @@
     <defName>RatkinPolice_Bullet_58x42_QBZ951</defName>
     <label>5.8mm rifle bullet</label>
     <graphicData>
-      <texPath>Things/Projectile/通用｜95突击步枪弹丸1</texPath>
+      <texPath>Things/Projectile/通用｜95-1突击步枪弹丸</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>

@@ -68,7 +68,7 @@
     <label>特警｜95-1长弓套件突击步枪</label>
     <description>95平台的精确化战术改型，强化附件安装、射程与中远距离稳定性。</description>
     <graphicData>
-      <texPath>Things/Weapon/特警｜95突击步枪/特警｜95突击步枪1Longbow</texPath>
+      <texPath>Things/Weapon/特警｜95-1长弓套件突击步枪/特警｜95-1长弓套件突击步枪</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.35</drawSize>
     </graphicData>

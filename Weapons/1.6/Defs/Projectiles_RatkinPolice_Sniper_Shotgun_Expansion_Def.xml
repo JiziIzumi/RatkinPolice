@@ -32,7 +32,7 @@
     <defName>RatkinPolice_Bullet_12Gauge_QBS09</defName>
     <label>12 gauge shotgun shell</label>
     <graphicData>
-      <texPath>Things/Projectile/通用｜97-2霰弹枪弹丸_QBS09</texPath>
+      <texPath>Things/Projectile/通用｜09式霰弹枪弹丸</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>
