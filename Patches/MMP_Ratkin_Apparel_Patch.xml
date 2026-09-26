@@ -19,27 +19,6 @@
         <li>MMP_PoliceDutyCap</li>
         <li>MMP_AuxDutyCap</li>
         <li>MMP_SWATBeret</li>
-        <li>MMP_Rank_F1_Insignia</li>
-        <li>MMP_Rank_F2_Insignia</li>
-        <li>MMP_Rank_F3_Insignia</li>
-        <li>MMP_Rank_F4_Insignia</li>
-        <li>MMP_Rank_F5_Insignia</li>
-        <li>MMP_Rank_F6_Insignia</li>
-        <li>MMP_Rank_F7_Insignia</li>
-        <li>MMP_Rank_F8_Insignia</li>
-        <li>MMP_Rank_J1_Insignia</li>
-        <li>MMP_Rank_J2_Insignia</li>
-        <li>MMP_Rank_J3_Insignia</li>
-        <li>MMP_Rank_J4_Insignia</li>
-        <li>MMP_Rank_J5_Insignia</li>
-        <li>MMP_Rank_J6_Insignia</li>
-        <li>MMP_Rank_J7_Insignia</li>
-        <li>MMP_Rank_J8_Insignia</li>
-        <li>MMP_Rank_J9_Insignia</li>
-        <li>MMP_Rank_J10_Insignia</li>
-        <li>MMP_Rank_J11_Insignia</li>
-        <li>MMP_Rank_J12_Insignia</li>
-        <li>MMP_Rank_J13_Insignia</li>
     </value>
   </Operation>
 </Patch>

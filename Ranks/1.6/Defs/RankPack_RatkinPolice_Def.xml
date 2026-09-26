@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RocketsRanks.RankPackDef><defName>RatkinPolice_Ranks</defName><label>Ratkin Police Ranks</label><description>鼠民警察的辅警与基层警衔序列。</description><previewRank>RatkinPolice_Rank_J8</previewRank></RocketsRanks.RankPackDef>
+  <RocketsRanks.RankPackDef><defName>RatkinPolice_Officers</defName><label>Ratkin Police Officers</label><description>鼠民警察的高级指挥警衔序列。</description><previewRank>RatkinPolice_Rank_J13</previewRank><isOfficerPack>true</isOfficerPack></RocketsRanks.RankPackDef>
+</Defs>
