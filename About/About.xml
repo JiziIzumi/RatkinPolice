@@ -4,7 +4,7 @@
   <author>JiziIzumi</author>
   <packageId>jiziizumi.mousepolice</packageId>
   <supportedVersions><li>1.6</li></supportedVersions>
-  <description>Ratkin Police｜鼠民警察是一套面向 Ratkin 世界观的警务装备扩展。内容围绕城镇巡逻、秩序维护、警务辅助与特勤处置展开，提供三类鼠民警务制服、勤务背心、腰带、帽类与现场记录设备。若同时启用 Rocket's Ranks，将自动载入独立的警衔子模块。</description>
+  <description>Ratkin Police｜鼠民警察是一套面向 Ratkin 世界观的警务装备扩展。内容围绕城镇巡逻、秩序维护、警务辅助与特勤处置展开，提供鼠民警务制服、勤务装备、手枪、冲锋枪、突击步枪、霰弹枪、精确射击武器与伸缩警棍。Combat Extended 启用时会自动加载专用弹药与 CE 武器参数；Rocket's Ranks 启用时会自动加载独立警衔子模块。</description>
   <loadAfter>
     <li>Solaris.RatkinRaceMod</li>
     <li>erdelf.HumanoidAlienRaces</li>

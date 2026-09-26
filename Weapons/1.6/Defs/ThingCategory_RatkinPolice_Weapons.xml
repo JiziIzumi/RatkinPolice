@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingCategoryDef><defName>RatkinPolice_PoliceWeapons</defName><label>鼠民警用武器</label><parent>Weapons</parent></ThingCategoryDef>
+</Defs>

@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <CombatExtended.AmmoSetDef>
+    <defName>AmmoSet_12GaugeRatkinPolice</defName>
+    <label>12 gauge police shotgun shells</label>
+    <ammoTypes>
+      <Ammo_12GaugeRatkinPolice_Buck>Bullet_12GaugeRatkinPolice_Buck</Ammo_12GaugeRatkinPolice_Buck>
+    </ammoTypes>
+    <similarTo>AmmoSet_Shotgun</similarTo>
+  </CombatExtended.AmmoSetDef>
+  <ThingDef Class="CombatExtended.AmmoDef" Name="RatkinPolice_12GaugeAmmoBase" ParentName="AmmoBase" Abstract="True">
+    <graphicData>
+      <texPath>Things/Ammo/RatkinPolice/通用｜12号警用霰弹</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.70</drawSize>
+    </graphicData>
+    <thingCategories>
+      <li>RatkinPolice_PoliceAmmo</li>
+    </thingCategories>
+    <statBases>
+      <Mass>0.012</Mass>
+      <Bulk>0.02</Bulk>
+    </statBases>
+    <tradeTags><li>CE_AutoEnableTrade</li><li>CE_AutoEnableCrafting</li></tradeTags>
+  </ThingDef>
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="RatkinPolice_12GaugeAmmoBase">
+    <defName>Ammo_12GaugeRatkinPolice_Buck</defName>
+    <label>通用｜12号警用霰弹</label>
+    <description>12号口径警用霰弹，供鼠民警务霰弹枪使用。</description>
+    <graphicData>
+      <texPath>Things/Ammo/RatkinPolice/通用｜12号警用霰弹</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.70</drawSize>
+    </graphicData>
+    <ammoClass>ShotgunShell</ammoClass>
+    <cookOffProjectile>Bullet_12GaugeRatkinPolice_Buck</cookOffProjectile>
+    <thingCategories>
+      <li>RatkinPolice_PoliceAmmo</li>
+    </thingCategories>
+  </ThingDef>
+  <ThingDef ParentName="BaseBulletCE">
+    <defName>Bullet_12GaugeRatkinPolice_Buck</defName>
+    <label>12G police buckshot</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>36</damageAmountBase>
+      <armorPenetrationSharp>14</armorPenetrationSharp>
+      <armorPenetrationBlunt>6</armorPenetrationBlunt>
+      <speed>420</speed>
+      <dropsCasings>true</dropsCasings>
+    </projectile>
+  </ThingDef>
+  <RecipeDef ParentName="AmmoRecipeBase">
+    <defName>MakeAmmo_12GaugeRatkinPolice_Buck</defName>
+    <label>制作12G警用霰弹枪弹</label>
+    <description>制作12G警用霰弹枪弹。</description>
+    <jobString>正在制作12G警用霰弹枪弹。</jobString>
+    <workAmount>15</workAmount>
+    <workSkill>Crafting</workSkill>
+    <skillRequirements>
+      <Crafting>4</Crafting>
+    </skillRequirements>
+    <recipeUsers>
+      <li>AmmoBench</li>
+    </recipeUsers>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+        <li>Chemfuel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>6</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Chemfuel</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+    </ingredients>
+    <products>
+      <Ammo_12GaugeRatkinPolice_Buck>100</Ammo_12GaugeRatkinPolice_Buck>
+    </products>
+  </RecipeDef>
+</Defs>

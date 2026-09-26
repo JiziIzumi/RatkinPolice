@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationSequence"><success>Always</success><operations>
+    <li Class="PatchOperationReplace"><xpath>/Defs/ThingDef[defName="RatkinPolice_ExpandableBaton"]/tools</xpath><value><tools><li Class="CombatExtended.ToolCE"><label>警棍</label><capacities><li>Blunt</li></capacities><power>8</power><cooldownTime>1.05</cooldownTime><chanceFactor>1</chanceFactor><armorPenetrationBlunt>2.2</armorPenetrationBlunt></li></tools></value></li>
+    <li Class="PatchOperationAdd"><xpath>/Defs/ThingDef[defName="RatkinPolice_ExpandableBaton"]/statBases</xpath><value><Bulk>1</Bulk><MeleeCounterParryBonus>0.10</MeleeCounterParryBonus></value></li>
+    <li Class="PatchOperationAdd"><xpath>/Defs/ThingDef[defName="RatkinPolice_ExpandableBaton"]</xpath><value><weaponTags><li>CE_Sidearm_Melee</li><li>CE_OneHandedWeapon</li></weaponTags></value></li>
+  </operations></Operation>
+</Patch>

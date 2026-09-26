@@ -2,8 +2,11 @@
 <loadFolders>
   <v1.6>
     <li>1.6</li>
+    <li>Weapons/1.6</li>
+    <li IfModActive="CETeam.CombatExtended">Weapons/CE/CE1.6</li>
     <li IfModActive="rockets.ranks">Ranks/1.6</li>
     <li>/</li>
+    <li>Weapons</li>
     <li IfModActive="rockets.ranks">Ranks</li>
   </v1.6>
 </loadFolders>

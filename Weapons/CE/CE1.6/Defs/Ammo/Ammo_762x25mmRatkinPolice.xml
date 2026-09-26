@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <CombatExtended.AmmoSetDef>
+    <defName>AmmoSet_762x25mmRatkinPolice</defName>
+    <label>7.62x25mm police pistol rounds</label>
+    <ammoTypes>
+      <Ammo_762x25mmRatkinPolice_FMJ>Bullet_762x25mmRatkinPolice_FMJ</Ammo_762x25mmRatkinPolice_FMJ>
+    </ammoTypes>
+    <similarTo>AmmoSet_Pistol</similarTo>
+  </CombatExtended.AmmoSetDef>
+  <ThingDef Class="CombatExtended.AmmoDef" Name="RatkinPolice_762x25mmAmmoBase" ParentName="SmallAmmoBase" Abstract="True">
+    <graphicData>
+      <texPath>Things/Ammo/RatkinPolice/通用｜7.62×25警用冲锋枪弹</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.70</drawSize>
+    </graphicData>
+    <thingCategories>
+      <li>RatkinPolice_PoliceAmmo</li>
+    </thingCategories>
+    <statBases>
+      <Mass>0.012</Mass>
+      <Bulk>0.02</Bulk>
+    </statBases>
+    <tradeTags><li>CE_AutoEnableTrade</li><li>CE_AutoEnableCrafting</li></tradeTags>
+  </ThingDef>
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="RatkinPolice_762x25mmAmmoBase">
+    <defName>Ammo_762x25mmRatkinPolice_FMJ</defName>
+    <label>通用｜7.62×25警用冲锋枪弹</label>
+    <description>7.62×25mm警用弹药，供鼠民旧式冲锋枪平台使用。</description>
+    <graphicData>
+      <texPath>Things/Ammo/RatkinPolice/通用｜7.62×25警用冲锋枪弹</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.70</drawSize>
+    </graphicData>
+    <ammoClass>FullMetalJacket</ammoClass>
+    <cookOffProjectile>Bullet_762x25mmRatkinPolice_FMJ</cookOffProjectile>
+    <thingCategories>
+      <li>RatkinPolice_PoliceAmmo</li>
+    </thingCategories>
+  </ThingDef>
+  <ThingDef ParentName="BaseBulletCE">
+    <defName>Bullet_762x25mmRatkinPolice_FMJ</defName>
+    <label>7.62x25mm police FMJ bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>20</damageAmountBase>
+      <armorPenetrationSharp>9</armorPenetrationSharp>
+      <armorPenetrationBlunt>2</armorPenetrationBlunt>
+      <speed>500</speed>
+      <dropsCasings>true</dropsCasings>
+    </projectile>
+  </ThingDef>
+  <RecipeDef ParentName="AmmoRecipeBase">
+    <defName>MakeAmmo_762x25mmRatkinPolice_FMJ</defName>
+    <label>制作7.62×25警用手枪弹</label>
+    <description>制作7.62×25警用手枪弹。</description>
+    <jobString>正在制作7.62×25警用手枪弹。</jobString>
+    <workAmount>15</workAmount>
+    <workSkill>Crafting</workSkill>
+    <skillRequirements>
+      <Crafting>4</Crafting>
+    </skillRequirements>
+    <recipeUsers>
+      <li>AmmoBench</li>
+    </recipeUsers>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+        <li>Chemfuel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Chemfuel</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <Ammo_762x25mmRatkinPolice_FMJ>500</Ammo_762x25mmRatkinPolice_FMJ>
+    </products>
+  </RecipeDef>
+</Defs>

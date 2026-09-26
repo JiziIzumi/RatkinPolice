@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <CombatExtended.AmmoSetDef>
+    <defName>AmmoSet_308WinRatkinPolice</defName>
+    <label>.308 police sniper rounds</label>
+    <ammoTypes>
+      <Ammo_308WinRatkinPolice_FMJ>Bullet_308WinRatkinPolice_FMJ</Ammo_308WinRatkinPolice_FMJ>
+    </ammoTypes>
+    <similarTo>AmmoSet_Rifle</similarTo>
+  </CombatExtended.AmmoSetDef>
+  <ThingDef Class="CombatExtended.AmmoDef" Name="RatkinPolice_308WinAmmoBase" ParentName="SmallAmmoBase" Abstract="True">
+    <graphicData>
+      <texPath>Things/Ammo/RatkinPolice/通用｜.308警用步枪弹</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.70</drawSize>
+    </graphicData>
+    <thingCategories>
+      <li>RatkinPolice_PoliceAmmo</li>
+    </thingCategories>
+    <statBases>
+      <Mass>0.012</Mass>
+      <Bulk>0.02</Bulk>
+    </statBases>
+    <tradeTags><li>CE_AutoEnableTrade</li><li>CE_AutoEnableCrafting</li></tradeTags>
+  </ThingDef>
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="RatkinPolice_308WinAmmoBase">
+    <defName>Ammo_308WinRatkinPolice_FMJ</defName>
+    <label>通用｜.308警用步枪弹</label>
+    <description>.308口径精确步枪弹，供鼠民特勤远距离精确武器使用。</description>
+    <graphicData>
+      <texPath>Things/Ammo/RatkinPolice/通用｜.308警用步枪弹</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.70</drawSize>
+    </graphicData>
+    <ammoClass>FullMetalJacket</ammoClass>
+    <cookOffProjectile>Bullet_308WinRatkinPolice_FMJ</cookOffProjectile>
+    <thingCategories>
+      <li>RatkinPolice_PoliceAmmo</li>
+    </thingCategories>
+  </ThingDef>
+  <ThingDef ParentName="BaseBulletCE">
+    <defName>Bullet_308WinRatkinPolice_FMJ</defName>
+    <label>.308 police FMJ bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>80</damageAmountBase>
+      <armorPenetrationSharp>45</armorPenetrationSharp>
+      <armorPenetrationBlunt>12</armorPenetrationBlunt>
+      <speed>850</speed>
+      <dropsCasings>true</dropsCasings>
+    </projectile>
+  </ThingDef>
+  <RecipeDef ParentName="AmmoRecipeBase">
+    <defName>MakeAmmo_308WinRatkinPolice_FMJ</defName>
+    <label>制作.308警用狙击弹</label>
+    <description>制作.308警用狙击弹。</description>
+    <jobString>正在制作.308警用狙击弹。</jobString>
+    <workAmount>15</workAmount>
+    <workSkill>Crafting</workSkill>
+    <skillRequirements>
+      <Crafting>5</Crafting>
+    </skillRequirements>
+    <recipeUsers>
+      <li>AmmoBench</li>
+    </recipeUsers>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+        <li>Chemfuel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>8</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Chemfuel</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+    </ingredients>
+    <products>
+      <Ammo_308WinRatkinPolice_FMJ>100</Ammo_308WinRatkinPolice_FMJ>
+    </products>
+  </RecipeDef>
+</Defs>
